@@ -1,0 +1,89 @@
+/*============================*/
+//======== STICKY FOOTER =====
+/*============================*/
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+// .page-wrap {
+//   min-height: 100%;
+//   /* equal to footer height */
+//   margin-bottom: -80px; 
+// }
+// .page-wrap:after {
+//   content: "";
+//   display: block;
+// }
+// .site-footer, .page-wrap:after {
+//   height: 80px; 
+// }
+// .site-footer {
+// 	clear:both;
+// 	font-size: 11px;
+//   background: $grey;
+//   font-family: 'KGNexttoMeSolid';
+//   color: $black;
+//   text-align: center;
+// }
+
+/*============================*/
+//====== MAIN STYLES ==========
+/*============================*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+// @font-face {
+//   font-family: 'KGNexttoMeSolid';
+//   src: url('../fonts/KGNexttoMeSolid.eot');
+//   src: url('../fonts/KGNexttoMeSolid.eot') format('embedded-opentype'),
+// 	url('../fonts/KGNexttoMeSolid.woff2') format('woff2'),
+// 	url('../fonts/KGNexttoMeSolid.woff') format('woff'),
+// 	url('../fonts/KGNexttoMeSolid.ttf') format('truetype'),
+// 	url('../fonts/KGNexttoMeSolid.svg#KGNexttoMeSolid') format('svg');
+// }
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #f3f3f3;
+}
+.bg-cyan{ background: $cyan !important;}
+.relative {position: relative !important;}
+.f-i{ font-style: italic; }
+.no_bg{background: none;}
+
+
+.btn-go{
+	background: $blue;
+	border: 1px $blue solid;
+	padding: 12px 20px;
+	color: $white;
+	
+	&:hover{
+		background: $dblue;
+		border: 1px $dblue solid;
+		color: $white;
+	}
+	&:focus{
+		background: $blue;
+		box-shadow: none;
+		outline: none;
+		border: 1px $blue solid;
+	}
+}
+.btn-shop-ct{
+	text-align: left;
+	background: none;
+	color: $white;
+	font-size: 12px;
+	border: 1px $header-bg solid;
+	&:hover{
+		border: 1px #696969 solid;
+		background: none;
+		color: $white;
+	}
+}
